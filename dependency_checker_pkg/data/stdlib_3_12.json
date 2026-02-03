@@ -1,0 +1,18 @@
+[
+    "abc", "argparse", "array", "asyncio", "base64", "binascii", "bisect",
+    "calendar", "cmath", "collections", "concurrent", "contextlib", "copy",
+    "csv", "datetime", "decimal", "dis", "enum", "errno", "faulthandler",
+    "fractions", "functools", "gc", "getopt", "glob", "graphlib", "gzip",
+    "hashlib", "heapq", "hmac", "html", "http", "importlib", "inspect",
+    "io", "ipaddress", "itertools", "json", "keyword", "linecache",
+    "locale", "logging", "lzma", "math", "mimetypes", "multiprocessing",
+    "netrc", "numbers", "operator", "os", "pathlib", "pickle", "platform",
+    "plistlib", "pprint", "profile", "pstats", "queue", "random", "re",
+    "sched", "secrets", "selectors", "shlex", "shutil", "signal", "site",
+    "smtplib", "socket", "sqlite3", "ssl", "stat", "string", "struct",
+    "subprocess", "sys", "sysconfig", "tabnanny", "tarfile", "tempfile",
+    "textwrap", "threading", "time", "timeit", "tkinter", "token",
+    "trace", "traceback", "types", "typing", "unicodedata", "unittest",
+    "urllib", "uuid", "venv", "warnings", "wave", "weakref", "webbrowser",
+    "xml", "zipfile", "zipimport", "zlib"
+]

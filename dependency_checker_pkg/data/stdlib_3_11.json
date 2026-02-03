@@ -1,0 +1,19 @@
+[
+    "abc", "argparse", "array", "asyncio", "base64", "binascii", "bisect",
+    "calendar", "cmath", "collections", "concurrent", "contextlib", "copy",
+    "csv", "datetime", "decimal", "difflib", "dis", "enum", "errno",
+    "faulthandler", "fractions", "functools", "gc", "getopt", "glob",
+    "gzip", "hashlib", "heapq", "hmac", "html", "http", "imaplib",
+    "importlib", "inspect", "io", "ipaddress", "itertools", "json",
+    "keyword", "linecache", "locale", "logging", "lzma", "math", "mimetypes",
+    "multiprocessing", "netrc", "numbers", "operator", "os", "pathlib",
+    "pickle", "platform", "plistlib", "pprint", "profile", "pstats",
+    "py_compile", "queue", "random", "re", "sched", "secrets", "selectors",
+    "shlex", "shutil", "signal", "site", "smtplib", "socket", "sqlite3",
+    "ssl", "stat", "statistics", "string", "struct", "subprocess", "sys",
+    "sysconfig", "tabnanny", "tarfile", "tempfile", "textwrap", "threading",
+    "time", "timeit", "tkinter", "token", "tomllib", "trace", "traceback",
+    "types", "typing", "unicodedata", "unittest", "urllib", "uuid", "venv",
+    "warnings", "wave", "weakref", "webbrowser", "xml", "zipfile",
+    "zipimport", "zlib", "zoneinfo"
+]

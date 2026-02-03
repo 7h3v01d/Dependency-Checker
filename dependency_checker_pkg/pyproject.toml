@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-dependency-checker" # The name your package will be installed as (e.g., pip install python-dependency-checker)
+version = "0.1.0" # Start with a version number
+authors = [
+  { name="Leon Priest", email="leonpriest76@gmail.com" },
+]
+description = "A CLI tool to scan Python projects for missing dependencies and install them."
+readme = "README.md" 
+requires-python = ">=3.8" # Minimum Python version required
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Or your preferred license
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+]
+keywords = ["python", "dependencies", "checker", "installer", "cli", "tool"]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/yourproject" # Replace with your project's GitHub or other URL
+"Bug Tracker" = "https://github.com/yourusername/yourproject/issues"
+
+[project.scripts]
+# This creates an executable script named 'depcheck' that runs dependency_cli.py's main() function
+depcheck = "dependency_cli:main"
+
+[project.optional-dependencies]
+# Define any optional dependencies here if your tool had different feature sets
+# dev = ["pytest>=7.0", "twine"]
+
+# You might not need explicit dependencies here if your tool uses only standard libs
+# and pip for installing others. However, if 'dependency_core' itself had strict
+# runtime dependencies (e.g., a specific version of 'requests'), you'd list them here.
+# For now, we'll assume it relies on pip to handle the actual project dependencies.
+
